@@ -1,0 +1,11 @@
+.handCursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  pointer-events: none;
+  transform: translate3d(var(--cursor-x, 0), var(--cursor-y, 0), 0) translate(-5%, -80%);
+  /* transition: all 0.1s ease-out; */
+  z-index: 1000;
+}
